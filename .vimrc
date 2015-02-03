@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
 map <C-I> :NERDTreeToggle<CR>
+map <C-t> :tabnew<CR>
 map <C-h> :tabprevious<CR>
 map <C-l> :tabnext<CR>
 map <C-j> :tablast<CR>
