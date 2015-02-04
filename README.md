@@ -21,6 +21,6 @@ In normal mode...
 * Line numbers are turned on by default.
 
 # About the plugins
-vim-multiple cursors allows you to edit multiple things at once, Ctrl-n to select the next instance of the word under the cursor, c to change all instances once selected.
-NERDTree powerful file tree.
-ctrlp use Ctrl-p to search for a filename in the CWD.
+* vim-multiple cursors allows you to edit multiple things at once, Ctrl-n to select the next instance of the word under the cursor, c to change all instances once selected.
+* NERDTree powerful file tree.
+* ctrlp use Ctrl-p to search for a filename in the CWD.
