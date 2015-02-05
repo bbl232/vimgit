@@ -9,11 +9,12 @@ This config package includes plugins by other developers including pathogen, NER
 In normal mode...
 * TAB will toggle the file tree pane.
 * Ctrl-t will open a new tab.
-* Ctrl-c will close the current tab.
+* Ctrl-x will close the current tab or pane.
 * Ctrl-h will focus the previous tab.
 * Ctrl-l will focus the next tab.
 * Ctrl-j will focus the last tab.
 * Ctrl-k will focus the first tab.
+* Ctrl-b will allow for quick buffer switching.
 * f will advance the cursor one word (b to move back a word).
 * :O <file> will open a file in a new tab (supports autocomplete).
 * :Q will close all open buffers (if they are not modified).
