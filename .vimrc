@@ -11,6 +11,7 @@ map <C-b> :ls<CR>:buffer<SPACE>
 nmap f w
 command Q qa
 command -nargs=1 -complete=file O tabnew <args> 
+autocmd BufEnter * lcd %:p:h
 let NERDTreeShowHidden=1
 syntax on
 set number
