@@ -6,7 +6,7 @@ map <C-h> :tabprevious<CR>
 map <C-l> :tabnext<CR>
 map <C-j> :tablast<CR>
 map <C-k> :tabfirst<CR>
-map <C-c> :close<CR>
+map <C-x> :close<CR>
 map <C-b> :ls<CR>:buffer<SPACE>
 nmap f w
 command Q qa
