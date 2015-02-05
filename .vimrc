@@ -15,3 +15,4 @@ autocmd BufEnter * lcd %:p:h
 let NERDTreeShowHidden=1
 syntax on
 set number
+set softtabstop=4 shiftwidth=4 expandtab
