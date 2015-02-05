@@ -1,13 +1,13 @@
 execute pathogen#infect()
 
-map <C-I> :NERDTreeToggle<CR>
-map <C-t> :tabnew<CR>
-map <C-h> :tabprevious<CR>
-map <C-l> :tabnext<CR>
-map <C-j> :tablast<CR>
-map <C-k> :tabfirst<CR>
-map <C-x> :close<CR>
-map <C-b> :ls<CR>:buffer<SPACE>
+nmap <C-I> :NERDTreeToggle<CR>
+nmap <C-t> :tabnew<CR>
+nmap <C-h> <C-W><C-H>
+nmap <C-l> <C-W><C-L>
+nmap <C-j> <C-W><C-J>
+nmap <C-k> <C-W><C-K>
+nmap <C-x> :close<CR>
+nmap <C-b> :ls<CR>:buffer<SPACE>
 nmap f w
 command Q qa
 command -nargs=1 -complete=file O tabnew <args> 

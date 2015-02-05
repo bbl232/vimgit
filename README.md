@@ -10,10 +10,10 @@ In normal mode...
 * TAB will toggle the file tree pane.
 * Ctrl-t will open a new tab.
 * Ctrl-x will close the current tab or pane.
-* Ctrl-h will focus the previous tab.
-* Ctrl-l will focus the next tab.
-* Ctrl-j will focus the last tab.
-* Ctrl-k will focus the first tab.
+* Ctrl-h will move left a pane.
+* Ctrl-l will move right a pane.
+* Ctrl-j will move down a pane.
+* Ctrl-k will move up a pane.
 * Ctrl-b will allow for quick buffer switching.
 * f will advance the cursor one word (b to move back a word).
 * :O <file> will open a file in a new tab (supports autocomplete).
