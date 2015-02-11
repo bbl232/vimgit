@@ -28,9 +28,10 @@ nmap <CR> O<Esc>
 ":O command for open in new tab
 command -nargs=1 -complete=file O tabnew <args> 
 
-":GA and GC commands for git add and git commit
+":GA, GC and GP commands for git add and git commit
 command GA !git add %
 command -nargs=1 GC !git commit -m <args>
+command GP !git push
 
 "Map f for forward word
 nmap f w
