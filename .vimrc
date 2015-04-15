@@ -42,6 +42,9 @@ vmap f w
 ":Q for quit all
 command Q qa
 
+"Unmap record
+nmap q <Nop>
+
 "lcd to current buffer pwd, useful for running commands
 autocmd BufEnter * lcd %:p:h
 
