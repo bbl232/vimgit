@@ -15,9 +15,6 @@ nmap <C-l> <C-W><C-L>
 nmap <C-j> <C-W><C-J>
 nmap <C-k> <C-W><C-K>
 
-"Tab/Pane close
-nmap <C-x> :close<CR>
-
 "Shift-B for buffer management
 nmap <S-b> :ls<CR>:buffer<SPACE>
 
@@ -27,17 +24,6 @@ nmap <CR> O<Esc>
 
 ":O command for open in new tab
 command -nargs=1 -complete=file O tabnew <args> 
-
-":git commands
-command GA !git add %
-command -nargs=1 GC !git commit -m <args>
-command GP !git push
-command GS !git status
-command GAP !git add -p
-
-"Map f for forward word
-nmap f w
-vmap f w
 
 ":Q for quit all
 command Q qa
