@@ -15,9 +15,6 @@ nmap <C-l> <C-W><C-L>
 nmap <C-j> <C-W><C-J>
 nmap <C-k> <C-W><C-K>
 
-"Shift-B for buffer management
-nmap <S-b> :ls<CR>:buffer<SPACE>
-
 "Inserting blank lines using enter
 nmap <S-Enter> o<Esc>
 nmap <CR> O<Esc>
