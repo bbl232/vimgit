@@ -15,6 +15,12 @@ nmap <C-l> <C-W><C-L>
 nmap <C-j> <C-W><C-J>
 nmap <C-k> <C-W><C-K>
 
+"Pane resizing
+nmap <S-h> :vertical resize -2<CR>
+nmap <S-l> :vertical resize +2<CR>
+nmap <S-j> :resize -2<CR>
+nmap <S-k> :resize +2<CR>
+
 "Inserting blank lines using enter
 nmap <S-Enter> o<Esc>
 nmap <CR> O<Esc>
