@@ -24,6 +24,7 @@ nmap <S-k> :resize +2<CR>
 "Inserting blank lines using enter
 nmap <S-Enter> o<Esc>
 nmap <CR> O<Esc>
+imap <C-L> <C-X><C-L>
 
 ":O command for open in new tab
 command -nargs=1 -complete=file O tabnew <args> 
