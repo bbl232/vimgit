@@ -3,6 +3,7 @@ execute pathogen#infect()
 "NERDTree shortcuts
 nmap <C-I> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
+let g:NERDTreeDirArrows=0
 
 "Tab controls
 nmap <C-t> :tabnew<CR>
