@@ -30,8 +30,16 @@ imap <C-L> <C-X><C-L>
 ":O command for open in new tab
 command -nargs=1 -complete=file O tabnew <args> 
 
-":Q for quit all
-command Q qa
+"Toggle relative and normal line numbers with shift n
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
+
+nnoremap <S-n> :call NumberToggle()<CR>
 
 "Unmap record
 nmap q <Nop>
