@@ -25,13 +25,9 @@ nmap <S-k> :resize +2<CR>
 "Inserting blank lines using enter
 nmap <S-Enter> o<Esc>
 nmap <CR> O<Esc>
-imap <C-L> <C-X><C-L>
 
 ":O command for open in new tab
 command -nargs=1 -complete=file O tabnew <args> 
-
-":Q for quit all
-command Q qa
 
 "Unmap record
 nmap q <Nop>
@@ -49,3 +45,5 @@ set number
 set softtabstop=2 shiftwidth=2 expandtab
 
 set backspace=indent,eol,start
+
+set iskeyword-=_
