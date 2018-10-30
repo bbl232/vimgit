@@ -1,4 +1,6 @@
 execute pathogen#infect()
+filetype on
+filetype plugin on
 
 "NERDTree shortcuts
 nmap <C-I> :NERDTreeToggle<CR>
@@ -26,6 +28,10 @@ nmap <S-k> :resize +2<CR>
 nmap <S-Enter> o<Esc>
 nmap <CR> O<Esc>
 
+"Quoting words
+nnoremap qw :silent! normal "zyiW<Esc>:let @z="'".@z."'"<CR>cW<c-r>z<Esc>b
+nnoremap qd :silent! normal "zyiW<Esc>:let @z="\"".@z."\""<CR>cW<c-r>z<Esc>b
+
 ":O command for open in new tab
 command -nargs=1 -complete=file O tabnew <args> 
 
@@ -43,6 +49,7 @@ set number
 
 "Indentation control
 set softtabstop=2 shiftwidth=2 expandtab
+autocmd FileType make setlocal noexpandtab
 
 set backspace=indent,eol,start
 
